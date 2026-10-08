@@ -3,3 +3,7 @@
 build/
 __pycache__/
 *.pyc
+init_image.sh
+rm_container.sh
+Dockerfile
+README.md

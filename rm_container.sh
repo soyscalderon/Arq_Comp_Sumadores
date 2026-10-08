@@ -1,2 +1,3 @@
 #!//usr/bin/bash
-docker stop arq-comp-sumadores && docker rm arq-comp-sumadores -v
+IMAGE_NAME="arq-comp-sumadores"
+docker stop "$IMAGE_NAME" && docker rm "$IMAGE_NAME" -v

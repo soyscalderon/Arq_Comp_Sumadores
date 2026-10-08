@@ -31,6 +31,6 @@ RUN pip install --no-cache-dir --upgrade pip setuptools wheel \
 
 WORKDIR /work
 
-COPY . /work
+COPY ./src /work
 
 CMD ["bash"]
